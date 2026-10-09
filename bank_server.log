@@ -1,0 +1,43 @@
+[2026-08-15 00:10:00] [INFO] [SESSION_0001] [nightuser] [192.168.1.20] [AUTH] - Successful login
+[2026-08-15 00:40:00] [INFO] [SESSION_0001] [nightuser] [192.168.1.20] [AUTH] - Logout
+[2026-08-15 08:00:00] [INFO] [SESSION_4001] [admin] [192.168.1.10] [AUTH] - Successful login
+[2026-08-15 08:01:00] [INFO] [SESSION_1001] [admin] [192.168.1.10] [QUERY] - SELECT * FROM accounts
+[2026-08-15 08:02:00] [INFO] [SESSION_1002] [admin] [192.168.1.10] [QUERY] - SELECT name FROM users
+[2026-08-15 08:03:00] [INFO] [SESSION_1003] [admin] [192.168.1.10] [QUERY] - UPDATE accounts SET balance=500
+[2026-08-15 08:04:00] [INFO] [SESSION_1004] [admin] [192.168.1.10] [QUERY] - INSERT INTO users VALUES (1,'Ali')
+[2026-08-15 08:05:00] [INFO] [SESSION_1005] [admin] [192.168.1.10] [QUERY] - DELETE FROM users WHERE id=1
+[2026-08-15 08:06:00] [INFO] [SESSION_1006] [admin] [192.168.1.10] [QUERY] - CREATE TABLE test
+[2026-08-15 08:07:00] [ERROR] [SESSION_2001] [admin] [10.0.0.1] [AUTH] - Failed login attempt
+[2026-08-15 08:08:00] [ERROR] [SESSION_2002] [root] [10.0.0.1] [AUTH] - Failed login attempt
+[2026-08-15 08:09:00] [ERROR] [SESSION_2003] [unknown] [10.0.0.1] [AUTH] - Failed login attempt
+[2026-08-15 08:10:00] [ERROR] [SESSION_2004] [admin] [20.0.0.1] [AUTH] - Failed login attempt
+[2026-08-15 08:11:00] [WARNING] [SESSION_3001] [admin] [192.168.1.10] [QUERY] - Slow query execution time 2500ms
+[2026-08-15 08:12:00] [WARNING] [SESSION_3002] [teller01] [192.168.1.11] [QUERY] - Slow query execution time 1.5 seconds
+[2026-08-15 08:13:00] [INFO] [SESSION_3003] [manager] [192.168.1.12] [QUERY] - Slow query execution time 3 seconds
+[2026-08-15 08:14:00] [INFO] [SESSION_5001] [admin] [192.168.1.10] [TRANSACTION] - Deposit amount 500
+[2026-08-15 08:15:00] [INFO] [SESSION_5002] [admin] [192.168.1.10] [TRANSACTION] - Deposit amount 200 USD
+[2026-08-15 08:16:00] [INFO] [SESSION_5003] [teller01] [192.168.1.11] [TRANSACTION] - Deposit amount 50.50
+[2026-08-15 08:17:00] [INFO] [SESSION_5004] [teller01] [192.168.1.11] [TRANSACTION] - Withdrawal amount 100
+[2026-08-15 08:18:00] [INFO] [SESSION_5005] [admin] [192.168.1.10] [TRANSACTION] - Withdrawal amount 25.75 USD
+[2026-08-15 08:19:00] [WARNING] [SESSION_5006] [admin] [192.168.1.10] [TRANSACTION] - Transaction declined
+[2026-08-15 08:20:00] [CRITICAL] [SESSION_5007] [manager] [192.168.1.12] [TRANSACTION] - Transaction rollback
+[2026-08-15 08:21:00] [CRITICAL] [SESSION_6001] [admin] [192.168.1.10] [BACKUP] - Backup failure
+[2026-08-15 08:22:00] [CRITICAL] [SESSION_6002] [manager] [192.168.1.11] [TRANSACTION] - Transaction rollback
+[2026-08-15 08:23:00] [CRITICAL] [SESSION_6003] [admin] [192.168.1.12] [BACKUP] - Backup failure - disk unavailable
+[2026-08-15 08:24:00] [ERROR] [SESSION_6004] [admin] [192.168.1.10] [BACKUP] - Backup failure
+[2026-08-15 08:30:00] [INFO] [SESSION_4001] [admin] [192.168.1.10] [AUTH] - Logout
+[2026-08-15 09:00:00] [INFO] [SESSION_4002] [teller01] [192.168.1.11] [AUTH] - Successful login
+[2026-08-15 09:15:00] [INFO] [SESSION_7001] [admin] [192.168.1.10] [QUERY] - SELECT * FROM customers
+[2026-08-15 09:45:00] [INFO] [SESSION_7002] [manager] [192.168.1.12] [QUERY] - SELECT * FROM users
+[2026-08-15 10:00:00] [INFO] [SESSION_4003] [manager] [192.168.1.12] [AUTH] - Successful login
+[2026-08-15 10:30:00] [INFO] [SESSION_8001] [admin] [192.168.1.10] [TRANSACTION] - Deposit amount 100
+[2026-08-15 12:05:30] [INFO] [SESSION_4003] [manager] [192.168.1.12] [AUTH] - Logout
+[2026-08-15 13:00:00] [INFO] [SESSION_4004] [admin] [192.168.1.10] [QUERY] - SELECT * FROM users
+[2026-08-15 14:00:00] [ERROR] [SESSION_9001] [unknown] [30.0.0.1] [AUTH] - Account locked
+[2026-08-15 15:00:00] [WARNING] [SESSION_9002] [manager] [192.168.1.12] [TRANSACTION] - Transaction declined
+[2026-08-15 16:00:00] [INFO] [SESSION_9003] [admin] [192.168.1.10] [TRANSACTION] - Withdrawal amount 50
+[2026-08-15 17:00:00] [CRITICAL] [SESSION_9004] [manager] [192.168.1.12] [BACKUP] - Database backup failed
+[2026-08-15 18:00:00] [INFO] [SESSION_9005] [admin] [192.168.1.10] [AUTH] - Successful login
+[2026-08-15 18:20:00] [INFO] [SESSION_9005] [admin] [192.168.1.10] [AUTH] - Logout
+[2026-08-15 23:50:00] [INFO] [SESSION_4005] [admin] [192.168.1.10] [AUTH] - Successful login
+[2026-08-16 00:10:00] [INFO] [SESSION_4005] [admin] [192.168.1.10] [AUTH] - Logout
